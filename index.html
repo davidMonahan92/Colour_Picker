@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Colour Picker</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+</head>
+<body>
+	<section>
+		<img src="https://s3.amazonaws.com/codecademy-content/courses/javascript-dom-events/rainbow.png" alt="Rainbow Icon"/>
+
+		<h1>Random Colour Generator</h1>
+		<p>Find your new favourite colour!</p>
+		
+		<div id="area">
+			<button id="original-button" >Pick A Colour</button>
+			<button id="mystery-button">Mystery Colour</button>
+
+			<!--This input takes in the value of the colour from either button, the clipboard code takes the text from the input and alerts it. The input field is hidden  -->
+			<input type="text" id="colourText"> <button id="copyButton" onclick="copyColour()">Copy</button>
+		</div>
+		
+	</section>
+
+	<script src="js/main.js"></script>
+</body>
+</html>

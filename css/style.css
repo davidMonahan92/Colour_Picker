@@ -1,0 +1,64 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Nunito";
+	background-color: lightblue;
+}
+
+img {
+	width: 280px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+p {
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	color: navy;
+	margin-bottom: 30px;
+}
+
+button {
+	width: 350px;
+	height: 100px;
+	display: block;
+	background-color: purple;
+	color: white;
+	font-size: 30px;
+	font-family: inherit;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+
+#copyButton {
+	width: 100px;
+	height: 50px;
+	display: block;
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	font-family: inherit;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+input {
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+	text-align: center;
+	height: 30px;
+	font-size: 30px;
+	font-family: inherit;
+}
