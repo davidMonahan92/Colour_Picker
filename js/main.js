@@ -25,7 +25,7 @@ function colourChange(event) {
 	
 }
 
-//When button is pressed the button background colour is changed and copied to the clipboard
+//When button is pressed the button background colour is changed 
 originalButton.onclick = colourChange;
 
 //onwheel allows the user to scroll through colours
@@ -33,7 +33,7 @@ mysteryButton.onwheel = colourChange;
 
 function copyColour(){
 	//gets the value of the input field
-	var copyColour = document.getElementById("colourText");
+	let copyColour = document.getElementById("colourText");
 
 	/* Select the text field */
 	copyColour.select();
